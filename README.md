@@ -41,3 +41,4 @@ $$x_{i}^{t+1} = x_{i}^{t} + v_{i}^{t+1}$$
 1. 确保已配置 Python 环境。
 2. 安装依赖：`pip install -r requirements.txt` (如有)。
 3. 运行项目：`python src/main.py`
+
