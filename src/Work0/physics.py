@@ -1,5 +1,5 @@
 import taichi as ti
-from .config import N, DT, G, EPS
+from config import N, DT, G, EPS
 
 # 粒子属性
 pos = ti.Vector.field(2, dtype=ti.f32, shape=N)

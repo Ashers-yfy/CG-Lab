@@ -1,5 +1,5 @@
 import taichi as ti
-from .physics import initialize, compute_gravity, update, pos
+from physics import initialize, compute_gravity, update, pos
 
 def main():
     initialize()
@@ -11,7 +11,7 @@ def main():
             mouse_pos = ti.Vector(gui.get_cursor_pos(), dt=ti.f32)
         else:
             mouse_pos = ti.Vector([0.5, 0.5], dt=ti.f32)  # 默认中心
-        
+          
         compute_gravity(mouse_pos)
         update()
 
