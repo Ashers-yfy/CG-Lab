@@ -1,6 +1,6 @@
 # 实验六：可微渲染 Differentiable Rendering
 
-> 课程：计算机图形学 | 授课教师：张鸿文 | 助教：张怡冉
+> 学号：202411081111 | 姓名：杨富圆 | 专业：人工智能
 > 课程主页：https://zhanghongwen.cn/cg
 
 ## 效果演示
